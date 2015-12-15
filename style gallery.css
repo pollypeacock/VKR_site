@@ -1,0 +1,152 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.container {
+    width: 950px;
+    margin: 0 auto;
+}
+.clearfix:before,
+.clearfix:after {
+   content: "";
+   display: table;
+}
+.clearfix:after {
+   clear: both;
+}
+.clearfix {
+
+/* для IE6-7 */
+   zoom: 1;
+}
+.header-top {
+    background-color: #242f35;
+    color: #fff;
+}
+
+.header-top .logo {
+    float: left;
+    padding: 20px 20px;
+}
+
+.header-top .navigation {
+    float: right;
+}
+
+.header-top .navigation li {
+    display: inline-block;
+    padding: 20px 20px;
+}
+
+.header-top .navigation li a {
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+}
+
+.header-top .navigation li a:hover {
+    color: #ffb700;
+
+}
+.gallery{
+     background-image: url("http://basik.ru/images/paint_wallpapers_1/16_paint_wallpapers.jpg");
+    text-align:left;
+    background-size: cover;
+    color: #000000;
+    font-size: 18pt;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    font-family: 'Comfortaa', cursive;
+}
+
+   .footer-bot {
+    height: 120px;
+    background-color: #141c1f;
+    margin: auto;
+}
+
+.footer-bot .navigation li {
+    display: inline-block;
+    padding: 20px 20px;
+}
+
+.footer-bot .navigation li a {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.footer-bot .navigation li a:hover {
+    color: #ffb700;
+
+}
+.footer-bot p {
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.other1{
+    width: 1263px;
+    height: 325px;
+}
+
+.row img{
+    width: 15%;
+    height: 70pt;
+    border: #7d8a9e;
+    margin: 6.2pt;
+    border-radius: 7pt;
+}
+
+#big{
+    width: 700pt;
+    height: 350pt;
+
+}
+
+.container1{
+    margin: 0 auto;
+    text-align: center;
+}
+

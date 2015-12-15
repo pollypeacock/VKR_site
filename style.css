@@ -1,0 +1,220 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.container {
+    width: 950px;
+    margin: 0 auto;
+}
+.clearfix:before,
+.clearfix:after {
+   content: "";
+   display: table;
+}
+.clearfix:after {
+   clear: both;
+}
+.clearfix {
+
+/* для IE6-7 */
+   zoom: 1;
+}
+.header-top {
+    background-color: #242f35;
+    color: #fff;
+}
+
+.header-top .logo {
+    float: left;
+    padding: 20px 20px;
+}
+
+.header-top .navigation {
+    float: right;
+}
+
+.header-top .navigation li {
+    display: inline-block;
+    padding: 20px 20px;
+}
+
+.header-top .navigation li a {
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+}
+
+.header-top .navigation li a:hover {
+    color: #ffb700;
+
+}
+
+
+.header1 {
+     background-image: url("colour_spectra-HD (1).jpg");
+     text-align: right;
+     background-size: cover;
+     font-size: 63pt;
+     font-family: 'Tenor Sans', sans-serif;
+     color: #FFFFFF;
+     height: 150pt;
+     padding-top:60pt
+
+
+   }
+
+
+.self {
+   background-image: url("http://fancyforms.com/members/ImageWidgetUploads/54440c2459afa1413745700.jpg");
+    text-align:center;
+    background-size: cover;
+    font-size: 20pt;
+    font-family: 'Comfortaa', cursive;
+    color: #000000;
+    height: auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-weight: 500;
+    border-top: 10px solid #242f35;
+    border-bottom: 10px solid #242f35;
+    float: left;
+    padding-left: 40pt;
+}
+.cont img{
+    border: 5px solid #242f35;
+}
+.self h1{
+    font-size: 50px;
+    padding-bottom: 10px;
+    }
+
+.about{
+    background: #f5f5f5;
+    text-align:center;
+    background-size: cover;
+    color: #000000;
+    font-size: 18pt;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    font-family: 'Comfortaa', cursive;
+    border-bottom: 10px solid #242f35;
+}
+.about h1{
+    font-size: 50px;
+    padding-bottom: 10px;
+
+
+}
+
+.tech{
+    background-image: url("http://fancyforms.com/members/ImageWidgetUploads/54440c2459afa1413745700.jpg");
+    padding-top: 30pt;
+    font-family: 'Poiret One', cursive;
+    padding-bottom: 40px;
+
+}
+.tech h1{
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.tech h2{
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+
+.container1{
+    display: inline-block;
+}
+
+
+.other1 {
+    height: 500px;
+    width: 32.54%;
+    border: 5px solid #f1f1f1;  
+    background-color: #f5f5f5;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+    float: left;
+}
+
+   .footer-bot {
+    height: 120px;
+    background-color: #141c1f;
+    margin: auto;
+}
+
+.footer-bot .navigation li {
+    display: inline-block;
+    padding: 20px 20px;
+}
+
+.footer-bot .navigation li a {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.footer-bot .navigation li a:hover {
+    color: #ffb700;
+
+}
+.footer-bot p {
+    color: #FFFFFF;
+    text-align: left;
+}
+.cont img{
+
+float: left;
+}
+.cont p{
+    padding-top: 30px;
+}
